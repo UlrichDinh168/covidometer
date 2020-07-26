@@ -1,4 +1,8 @@
 {
+  "engines": {
+    "node": ">=11.14.0",
+    "npm": ">=6.7.0"
+  },
   "name": "covidometer",
   "version": "0.1.0",
   "private": true,
