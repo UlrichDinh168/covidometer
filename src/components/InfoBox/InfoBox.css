@@ -1,0 +1,50 @@
+.infoBox {
+	flex: 1;
+  cursor: pointer;
+  box-shadow: -6px -6px 20px rgba(255,255,255,1), 6px 6px 20px rgba(0, 0, 0, 0.1);
+  background-color: #ebf5fc;
+  border-radius: 0.5rem;
+	padding: 0.5rem;
+	text-align: center;
+	margin-bottom: 1rem;
+	font-weight: 700;
+} 
+
+.infoBox :hover {
+  box-shadow: inset -6px -6px 10px rgba(82, 7, 7, 0.5),
+    inset(6px 6px 20px rgba(223, 17, 17, 0.05));
+}
+
+.infoBox:not(:last-child) {
+  margin-right: 15px;
+}
+.infoBox__title:hover{
+	box-shadow: inset -6px -6px 10px rgba(82, 7, 7, 0.5),
+    inset(6px 6px 20px rgba(223, 17, 17, 0.05));
+}
+.infoBox__title{
+	padding-bottom: .5rem;
+}
+.infoBox--selected {
+  border-top: 10px solid greenyellow;
+}
+.infoBox--red {
+	border-color: #ef9095;
+}
+.infoBox__cases--green {
+	padding-top: .5rem;
+	line-height: .3rem;
+  color: #99f701 !important;
+}
+.infoBox__cases {
+  color: #f28482;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+.infoBox__total {
+  color: #6c757d;
+  font-weight: 700 !important;
+  font-size: 0.8rem !important;
+  /* margin-top: 15px !important; */
+}
